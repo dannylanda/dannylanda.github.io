@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Danny Landa | Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+  <nav>
+    <h1> Danny Landa Portfolio </h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="danny-landa"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">danny@ubuntu:~whoami</h2>
+        <p class="bio-text">
+          Hey! I'm Danny, thanks for stopping by! <br><br>
+          Welcome to my little corner of the web! I'm a DevOps Engineer. 
+          I have a broad interest in many things technology, Artifical Intelligence, Machine Learning, Blockchain, Infrastructure and Robotics. <br><br>
+          Here you will be able to keep tabs on where i'm at in my career, and where i'm heading, while offering a genuine human connection in this very digital world. 
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me!</h2>
+      <p>
+        After a successful career change, I am now working as a DevOps Engineer 
+        within JD's multichannel team. I am starting from a foundational level,
+        learning about web-development, building websites from scratch, using
+        source control alongside this, to securing them and making them accessible
+        with networking and security settings. I am learning how to utilise servers
+        across different cloud vendors, automating elements of this process using
+        bash scripting and automation tools. I am also learning how to continuously
+        integrate and deploy changes using DevOps tooling and monitor servers and
+        applications using monitoring tools such as New Relic. I am a relentless learner
+        and while, I often hit steep learning curves on my day to day journey, I take 
+        the time learn things thoroughly and break complex concepts down to the equivilant
+        of a light, enjoyable, snack. <br> <br> 
+        
+        Away from the world of DevOps I am hugely interested in entrepreneurship, I own
+        one of the fastest growing plant-based food companies in Manchester that equally,
+        keeps me busy. I also am hugely interested in all things Blockchain
+        and have a really diverse cryptocurrency portfolio, that keeps my partner up at night. 
+        Long term I would like to combine my interests of Blockchain and DevOps.  
+      </p> <br> <br>
+      <p>
+        <b> DevOps Roadmap:</b> <br> <br>
+        - DevOps Cultures & Methodologies<br>
+        - Team City & Octopus Deploy (CI/CD Pipeline) <br>
+        - GitHub/Git Bash/Bit Bucket <br>
+        - AWS (EC2, S3, Cloudfront, Route53)<br>
+        - Azure <br>
+        - Linux (Navigating, Text Manipulation, Vi, User-Roles, Permissions, Processes, Package Management)<br>
+        - Programming & Automation <br>
+        - Security & Networking <br>
+        - Terraform<br> 
+        - New Relic (Monitoring) <br>
+        - Web Development (HTML, CSS) <br>
+        - Scripting (#!/bin/bash) <br>
+        - Python <br>
+        - Kubernetes <br>
+        - Networking <br>
+        - Creating VPC's <br>
+        - Docker (Manipulating Containers, Building Images, Pulling Images, Running Containers, Exposing Ports, Naming Containers,
+          Managing Containers With Docker PS, Volumes, Creating Dockerfiles)<br>
+      </p> <br>
+      <p>
+        <b> Certifications: </b> <br>
+        - <a href="https://www.credly.com/badges/0a2843cb-a0e8-4f02-94dc-bfe92ff90fda?source=linked_in_profile">AWS re/Start Graduate<br>
+        - <a href="https://www.credly.com/badges/d8420f72-5181-4c4f-a9d8-e10c549e92a8/linked_in?t=rzsas2">AWS Certified Cloud Practitioner<br>
+        - <a href="https://www.credly.com/badges/2afd6604-f216-4a8a-be27-12b272ba9e2a/linked_in_profile">Cisco IT Essentials</a> <br>
+        - <a href="https://www.credly.com/badges/a641ebf0-f50c-4f7a-a3fa-d2ebcecffe40/linked_in_profile">Cisco Networking Basics</a><br>
+        - <a href="https://www.credly.com/badges/5a2707fc-3150-4509-bb2b-c59514b14062/linked_in_profile">CompTIA Cloud Essentials</a><br>
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/devops-seeklogo.com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/icons8-azure.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            /> 
+            <img
+            src="assets/icons/docker-logo-svgrepo-com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/tux-seeklogo.com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/icons8-amazon-web-services.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/Cloud Essentials+ Certified Logo black 15MAY19.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/it-essentials (1).png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/networking-basics.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            /> 
+            <img
+            src="assets/icons/terraform-icon-svgrepo-com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/python-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+            <img
+            src="assets/icons/aws-certified-cloud-practitioner.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            />
+        </div>
+      </div> 
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some Of My Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+          src="assets/icons/docker-logo-svgrepo-com.svg"
+          alt="octo-teams"
+          loading="lazy"
+          class="project-pic"
+          />
+          <h3 class="project-title">Dockerising My Website</h3>
+          <p class="project-details">
+            My first Docker project where I dockerised this portfolio website, built a dockerfile, and ran a container
+            that mapped port 80 outside of the container to 80 within the container. 
+          </p>
+          <a href="https://medium.com/@dannylanda/how-to-dockerise-a-static-website-75d0736f76b8" target="_blank" class="project-link">Give It A Go Yourself</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+          src="assets/icons/nginx-ar21.svg"
+          alt="Nginx"
+          loading="lazy"
+          class="project-pic"
+          />
+          <h3 class="project-title">Nginx</h3>
+          <p class="project-details">
+            A very simple project, with a step by step tutorial on how to configure a NGINX web server. 
+          </p>
+          <a href="https://medium.com/@dannylanda/a-fools-guide-to-deploying-nginx-on-a-web-server-no-seriously-its-fool-proof-f9b1f7d7ce69" target="_blank" class="project-link">Check It Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+          src="assets/images/nav-toggling-quirk-fixed.gif"
+          alt="websiteportfolio"
+          loading="lazy"
+          class="project-pic"
+          />
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-details">
+            One of my first projects was to build this website, from scratch. It is also utilising a CI/CD feature built into Netlify to
+            continously intergrate changes from the local code base. 
+          </p>
+          <a href="https://github.com/dannylanda/developer-portfolio/blob/master/README.md#" target="_blank" class="project-link">Check It Out!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyyabrgw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+                />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+                />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+                ></textarea>
+            </div>
+            <input 
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/DannyLandaXO" target="_blank"  
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/dannylandaxo" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/danny-landa" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/dannylanda" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+
+    <!-- Footer section -->
+   
+   
+    <!-- Scroll Up section -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>    
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
